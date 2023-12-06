@@ -17,12 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Page/Login/Login'), [
-	
-	('username'): Username,
-	('password'): Password
-
-	], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page/Login/Login'), [('username') : Username, ('password') : Password], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
