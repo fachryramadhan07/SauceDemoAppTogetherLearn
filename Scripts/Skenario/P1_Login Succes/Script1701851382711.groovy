@@ -17,21 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Page/Login/Login Succes'), [
+	
+	('username'): Username,
+	('password'): Password
 
-WebUI.navigateToUrl('https://www.saucedemo.com/')
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Login/inputUsername'), 'standard_user')
-
-WebUI.setText(findTestObject('Login/inputPassword'), 'secret_sauce')
-
-WebUI.click(findTestObject('Login/buttonLogin'))
+	], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
 WebUI.takeScreenshot()
-
-WebUI.closeBrowser()
 
