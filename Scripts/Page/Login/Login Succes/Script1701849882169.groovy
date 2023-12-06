@@ -23,9 +23,9 @@ WebUI.navigateToUrl('https://www.saucedemo.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Login/inputUsername'), 'standard_user')
+WebUI.setText(findTestObject('Login/inputUsername'), username)
 
-WebUI.setText(findTestObject('Login/inputPassword'), 'secret_sauce')
+WebUI.setText(findTestObject('Login/inputPassword'), password)
 
 WebUI.click(findTestObject('Login/buttonLogin'))
 
