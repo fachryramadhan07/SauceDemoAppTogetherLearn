@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memfilter barang dari harga murah ke mahal</description>
+   <name>P2_Price Low to High</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>829ff2cf-7d10-4318-8c82-7e141b0343c0</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>88a0ffd4-e196-4aa2-8b80-4e8614df3cd1</id>
+      <iterationEntity>
+         <iterationType>SPECIFIC</iterationType>
+         <value>6</value>
+      </iterationEntity>
+      <testDataId>Data Files/DiskaData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>88a0ffd4-e196-4aa2-8b80-4e8614df3cd1</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>a0ca0e78-2f9a-440f-8feb-4a46e5af7731</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>88a0ffd4-e196-4aa2-8b80-4e8614df3cd1</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>861daac9-809a-48ec-9621-3abb09ae78fb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>88a0ffd4-e196-4aa2-8b80-4e8614df3cd1</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>SearchFilter</value>
+      <variableId>2625052c-cc78-404d-a252-5a7c2b05cd26</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a0ca0e78-2f9a-440f-8feb-4a46e5af7731</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>861daac9-809a-48ec-9621-3abb09ae78fb</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2625052c-cc78-404d-a252-5a7c2b05cd26</id>
+      <masked>false</masked>
+      <name>SearchFilter</name>
+   </variable>
+</TestCaseEntity>
