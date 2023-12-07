@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P3_Filter High to Low</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>45d9f93b-7659-4ff4-bf8e-3de0f0de78b5</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>e38ac852-6c15-413c-a3a6-869a7b35fc2c</id>
+      <iterationEntity>
+         <iterationType>SPECIFIC</iterationType>
+         <value>7</value>
+      </iterationEntity>
+      <testDataId>Data Files/RizkaData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>e38ac852-6c15-413c-a3a6-869a7b35fc2c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>cf9521c6-e4b5-432c-a9c2-1537c7126dfa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>e38ac852-6c15-413c-a3a6-869a7b35fc2c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>b8b0cb35-83bf-425d-9825-bfadd3f8e2c9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>e38ac852-6c15-413c-a3a6-869a7b35fc2c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>SearchFilter</value>
+      <variableId>8b820d4e-daec-4ad7-8492-c4cf5d28fd51</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cf9521c6-e4b5-432c-a9c2-1537c7126dfa</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b8b0cb35-83bf-425d-9825-bfadd3f8e2c9</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8b820d4e-daec-4ad7-8492-c4cf5d28fd51</id>
+      <masked>false</masked>
+      <name>SearchFilter</name>
+   </variable>
+</TestCaseEntity>
