@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P2_Klik Back Countinue Shopping</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>212cf596-feb1-4c97-98f1-4ab176519766</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>d4a5122f-0fb8-49a2-adce-7c9e7ec046dd</id>
+      <iterationEntity>
+         <iterationType>SPECIFIC</iterationType>
+         <value>10</value>
+      </iterationEntity>
+      <testDataId>Data Files/Yusuf-saputro</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>d4a5122f-0fb8-49a2-adce-7c9e7ec046dd</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>8630e364-61b5-463d-a6dd-8941b3146b52</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d4a5122f-0fb8-49a2-adce-7c9e7ec046dd</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>2540dc25-eda8-43fb-abe9-0f69b9d9e005</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8630e364-61b5-463d-a6dd-8941b3146b52</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2540dc25-eda8-43fb-abe9-0f69b9d9e005</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>
