@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Page/Login/Login'), [('username') : Username, ('password') : Password], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('RepoRizka/Login/AssertionUsernamePasswordInvalid'), '')
+WebUI.verifyElementText(findTestObject('RepoRizka/Login/AssertionUsernamePasswordInvalid'), 'Epic sadface: Username is required')
 
 WebUI.delay(2)
 

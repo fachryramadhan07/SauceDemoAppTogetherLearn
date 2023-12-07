@@ -7,7 +7,7 @@
    <testCaseGuid>382b31c5-b830-4798-96d7-c9cc24b6e54b</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>dfcc818d-91d1-46d8-b49b-8004988149de</id>
+      <id>2bab9b5e-c056-4e6e-8bb2-76638aa594e9</id>
       <iterationEntity>
          <iterationType>SPECIFIC</iterationType>
          <value>1</value>
@@ -15,13 +15,13 @@
       <testDataId>Data Files/FachData</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>dfcc818d-91d1-46d8-b49b-8004988149de</testDataLinkId>
+      <testDataLinkId>2bab9b5e-c056-4e6e-8bb2-76638aa594e9</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Username</value>
       <variableId>8f1d52d5-ebee-4fb4-a64b-3366c3391765</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>dfcc818d-91d1-46d8-b49b-8004988149de</testDataLinkId>
+      <testDataLinkId>2bab9b5e-c056-4e6e-8bb2-76638aa594e9</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Password</value>
       <variableId>44be826b-bfba-4cef-81a3-ea72d78e2f73</variableId>

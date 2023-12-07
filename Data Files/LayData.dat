@@ -7,9 +7,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>4a45b423-8273-4f16-a5c1-5edf2d4dabd7</dataFileGUID>
-   <dataSourceUrl>C:\Users\layun\git\SauceDemoAppTogetherLearn\Test Data\SauceDemoApp_Layung.xlsx</dataSourceUrl>
+   <dataSourceUrl>Test Data/SauceDemoApp_Layung.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Sheet1</sheetName>
