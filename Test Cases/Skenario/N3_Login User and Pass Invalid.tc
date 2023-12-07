@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>N3_Login User and Pass Invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0feaa4c2-ddec-4bbf-8cac-928a1b8e49d4</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>2379c100-e4e7-447a-91af-265a409d5442</id>
+      <iterationEntity>
+         <iterationType>SPECIFIC</iterationType>
+         <value>3</value>
+      </iterationEntity>
+      <testDataId>Data Files/RizkaData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>2379c100-e4e7-447a-91af-265a409d5442</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>463ff0d7-32cd-4b92-9fe9-4a151098403b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>2379c100-e4e7-447a-91af-265a409d5442</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>aaddd57b-c16d-449e-bac9-07b3ac06d553</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>463ff0d7-32cd-4b92-9fe9-4a151098403b</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aaddd57b-c16d-449e-bac9-07b3ac06d553</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>
